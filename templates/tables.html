@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="ikea tables" />
+  <meta charset="utf-8">
+  <title>IKEA Tables</title>
+  <link rel="stylesheet" href="static/style.css">
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+
+<body>
+  <form action=/home>
+    <input type="submit" value="Go to Home" class="button"/>
+</form>
+<div class="center"  align="center" >
+  THIS IS IKEA HSI RESULTS
+</div>
+
+<table class="table">
+  <tr class="table__header">
+      {% for header in headings_hsi %}
+      <th class="header__cell"> {{ header }}</th>
+      {% endfor %}
+  </tr>
+      {% for row in data_hsi %}
+      <tr class="table__row">
+      {% for cell in row %}
+      <td class="table__cell">{{ cell }}</td>
+      {% endfor%}  
+      </tr>    
+      {% endfor%}  
+</table>
+
+<div class="center" align="center">
+  THIS IS IKEA MP RESULTS
+</div>
+
+<table class="table">
+  <tr class="table__header">
+      {% for header in headings_mp %}
+      <th class="header__cell"> {{ header }}</th>
+      {% endfor %}
+  </tr>
+      {% for row in data_mp %}
+      <tr class="table__row">
+      {% for cell in row %}
+      <td class="table__cell">{{ cell }}</td>
+      {% endfor%}  
+      </tr>    
+      {% endfor%}  
+</table>
+
+</body>
+</html>

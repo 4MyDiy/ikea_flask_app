@@ -1,0 +1,46 @@
+.table{
+    border-spacing: 1px;
+    margin: 1rem;
+    background-color:black;
+    color: blue;
+    width: 90%;
+
+}
+
+.header__cell{
+    padding: 10px;
+    color:blue;
+
+
+}
+
+.table__row{
+    background-color:blue
+}
+
+.table__header{
+    text-align: center;
+    background-color:yellow;
+    text-align: center;
+       
+    
+}
+
+.table__cell{
+    padding: 10px;
+    color:yellow;
+
+}
+
+tr:hover {background-color:lightskyblue;}
+
+.button {
+    font-family: inherit; /* For all browsers */
+    font-size: 100%; /* For all browsers */
+    line-height: 1.15; /* For all browsers */
+    margin: 0; /* Firefox and Safari have margin */
+    overflow: visible; /* Edge hides overflow */
+    color: blue;
+    background-color: yellow;
+    
+  }
