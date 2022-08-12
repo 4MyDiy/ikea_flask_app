@@ -10,8 +10,6 @@
 .header__cell{
     padding: 10px;
     color:blue;
-
-
 }
 
 .table__row{
@@ -22,14 +20,11 @@
     text-align: center;
     background-color:yellow;
     text-align: center;
-       
-    
 }
 
 .table__cell{
     padding: 10px;
     color:yellow;
-
 }
 
 tr:hover {background-color:lightskyblue;}
@@ -42,5 +37,4 @@ tr:hover {background-color:lightskyblue;}
     overflow: visible; /* Edge hides overflow */
     color: blue;
     background-color: yellow;
-    
   }
